@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://raw.githubusercontent.com; style-src 'unsafe-inline' 'self'; script-src 'self' 'unsafe-eval'; font-src 'self' https://fonts.gstatic.com; img-src data: blob: *; media-src data: blob: *;">
+        
+        <meta property="og:title" content="Cryptographic tools" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://crypto.raynet.dev/" />
+        <meta property="og:image" content="https://crypto.raynet.dev/logo.png" />
+        <meta property="og:site_name" content="Cryptographic tools" />
+        <meta property="og:locale" content="/en_US" />
+        <meta property="og:description" content="Tools that work both online and offline. All without the use of server interaction." />
+        <title>Cryptographic tools</title>
+        
+        <link rel="icon" href="/favicon.ico"/>
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="/js/logo.js" type="application/javascript"></script>
+        
+        <script src="/js/notification.js" type="application/javascript"></script>
+        <script src="/js/math.js" type="application/javascript"></script>
+        <script src="/js/graph.js" type="application/javascript"></script>
+        <script src="/js/overlay.js" type="application/javascript"></script>
+        <script src="/js/menu.js" type="application/javascript"></script>
+        <script src="/js/table.js" type="application/javascript"></script>
+        <script src="/js/eventManager.js" type="application/javascript"></script>        
+        <script src="/js/encoding.js" type="application/javascript"></script>    
+        <script src="/js/encryption.js" type="application/javascript"></script>        
+        <script src="/js/functions.js" type="application/javascript"></script>
+               
+        <script src="/wasm/Core.js" type="application/javascript"></script>
+        <script src="/wasm/helper.js" type="application/javascript"></script>
+        
+        <script src="/js/main.js" type="application/javascript"></script>
+
+    </head>
+    <body>
+        <div class='center' style='width:500px;max-width:90%'>
+            <div class='dyn-logo' style='width:calc(100% - 40px);margin:20px;'></div>            
+            <div class='button' style='margin:10px' id='listTOTP'>List TOTP</div>
+            <div class='button' style='margin:10px' id='generateB64Keys'>Generate base64 keys</div>
+            <div class='button' style='margin:10px' id='handleEncFile'>Encrypt/decrypt a file</div>            
+            <div class='button' style='margin:10px' id='handleZstFile'>Compress/decompress a file</div>
+        </div>
+    </body>
+</html>

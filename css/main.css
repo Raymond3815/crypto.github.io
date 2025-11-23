@@ -1,0 +1,327 @@
+:root{
+    --border-color: #e8c291;
+    
+    --font-color: black;    
+    --faded-font-color: rgb(77, 77, 77);
+    
+    --bg-color: rgba(255,255,255,1);
+    --bg-color-95-transparent: rgba(255,255,255,0.05);
+    --bg-color-90-transparent: rgba(255,255,255,0.1);
+    --bg-color-85-transparent: rgba(255,255,255,0.15);
+    --bg-color-80-transparent: rgba(255,255,255,0.2);
+    --bg-color-75-transparent: rgba(255,255,255,0.25);
+    --bg-color-70-transparent: rgba(255,255,255,0.3);
+    --bg-color-65-transparent: rgba(255,255,255,0.35);
+    --bg-color-60-transparent: rgba(255,255,255,0.4);
+    --bg-color-55-transparent: rgba(255,255,255,0.45);
+    --bg-color-50-transparent: rgba(255,255,255,0.5);
+    --bg-color-45-transparent: rgba(255,255,255,0.55);
+    --bg-color-40-transparent: rgba(255,255,255,0.6);
+    --bg-color-35-transparent: rgba(255,255,255,0.65);
+    --bg-color-30-transparent: rgba(255,255,255,0.7);
+    --bg-color-25-transparent: rgba(255,255,255,0.75);
+    --bg-color-20-transparent: rgba(255,255,255,0.8);
+    --bg-color-15-transparent: rgba(255,255,255,0.85);
+    --bg-color-10-transparent: rgba(255,255,255,0.9);
+    --bg-color-5-transparent: rgba(255,255,255,0.95);
+    
+    --anti-bg-color: rgba(0,0,0,1);
+    --anti-bg-color-95-transparent: rgba(0,0,0,0.05);
+    --anti-bg-color-90-transparent: rgba(0,0,0,0.1);
+    --anti-bg-color-85-transparent: rgba(0,0,0,0.15);
+    --anti-bg-color-80-transparent: rgba(0,0,0,0.2);
+    --anti-bg-color-75-transparent: rgba(0,0,0,0.25);
+    --anti-bg-color-70-transparent: rgba(0,0,0,0.3);
+    --anti-bg-color-65-transparent: rgba(0,0,0,0.35);
+    --anti-bg-color-60-transparent: rgba(0,0,0,0.4);
+    --anti-bg-color-55-transparent: rgba(0,0,0,0.45);
+    --anti-bg-color-50-transparent: rgba(0,0,0,0.5);
+    --anti-bg-color-45-transparent: rgba(0,0,0,0.55);
+    --anti-bg-color-40-transparent: rgba(0,0,0,0.6);
+    --anti-bg-color-35-transparent: rgba(0,0,0,0.65);
+    --anti-bg-color-30-transparent: rgba(0,0,0,0.7);
+    --anti-bg-color-25-transparent: rgba(0,0,0,0.75);
+    --anti-bg-color-20-transparent: rgba(0,0,0,0.8);
+    --anti-bg-color-15-transparent: rgba(0,0,0,0.85);
+    --anti-bg-color-10-transparent: rgba(0,0,0,0.9);
+    --anti-bg-color-5-transparent: rgba(0,0,0,0.95);
+    
+    --dark-transparent-color:rgba(75,75,75,0.6);
+    --dark-transparent-hover-color: rgba(75,75,75,0.7);
+    
+    
+    --light-transparent-color:rgba(255,255,255,0.5);
+    --light-transparent-hover-color:rgba(255,255,255,0.6);
+    
+    
+    --gray-transparent-color:rgba(180,180,180,0.3);
+    --gray-transparent-hover-color: rgba(180,180,180,0.5);
+    
+    --black-transparent-color:rgba(0,0,0,0.5);
+    --black-transparent-hover-color: rgba(0,0,0,0.6);
+    
+    --green-transparent-color: rgba(111,155,72,0.5);
+    --green-transparent-hover-color:  rgba(111,155,72,0.8);
+    
+    --red-transparent-color: rgba(194,24,7,0.4);
+    --red-transparent-hover-color: rgba(194,24,7,0.6);
+}
+
+[data-theme="dark"] {    
+    --border-color: rgb(51, 51,51);
+    
+    --font-color: white;
+    --faded-font-color: rgb(177,177, 177);
+    
+    --bg-color: rgba(0,0,0,1);
+    --bg-color-95-transparent: rgba(0,0,0,0.05);
+    --bg-color-90-transparent: rgba(0,0,0,0.1);
+    --bg-color-85-transparent: rgba(0,0,0,0.15);
+    --bg-color-80-transparent: rgba(0,0,0,0.2);
+    --bg-color-75-transparent: rgba(0,0,0,0.25);
+    --bg-color-70-transparent: rgba(0,0,0,0.3);
+    --bg-color-65-transparent: rgba(0,0,0,0.35);
+    --bg-color-60-transparent: rgba(0,0,0,0.4);
+    --bg-color-55-transparent: rgba(0,0,0,0.45);
+    --bg-color-50-transparent: rgba(0,0,0,0.5);
+    --bg-color-45-transparent: rgba(0,0,0,0.55);
+    --bg-color-40-transparent: rgba(0,0,0,0.6);
+    --bg-color-35-transparent: rgba(0,0,0,0.65);
+    --bg-color-30-transparent: rgba(0,0,0,0.7);
+    --bg-color-25-transparent: rgba(0,0,0,0.75);
+    --bg-color-20-transparent: rgba(0,0,0,0.8);
+    --bg-color-15-transparent: rgba(0,0,0,0.85);
+    --bg-color-10-transparent: rgba(0,0,0,0.9);
+    --bg-color-5-transparent: rgba(0,0,0,0.95);
+    
+    --anti-bg-color: rgba(255,255,255,1);
+    --anti-bg-color-95-transparent: rgba(255,255,255,0.05);
+    --anti-bg-color-90-transparent: rgba(255,255,255,0.1);    
+    --anti-bg-color-85-transparent: rgba(255,255,255,0.15);
+    --anti-bg-color-80-transparent: rgba(255,255,255,0.2);
+    --anti-bg-color-75-transparent: rgba(255,255,255,0.25);
+    --anti-bg-color-70-transparent: rgba(255,255,255,0.3);
+    --anti-bg-color-65-transparent: rgba(255,255,255,0.35);
+    --anti-bg-color-60-transparent: rgba(255,255,255,0.4);
+    --anti-bg-color-55-transparent: rgba(255,255,255,0.45);
+    --anti-bg-color-50-transparent: rgba(255,255,255,0.5);
+    --anti-bg-color-45-transparent: rgba(255,255,255,0.55);
+    --anti-bg-color-40-transparent: rgba(255,255,255,0.6);
+    --anti-bg-color-35-transparent: rgba(255,255,255,0.65);
+    --anti-bg-color-30-transparent: rgba(255,255,255,0.7);
+    --anti-bg-color-25-transparent: rgba(255,255,255,0.75);
+    --anti-bg-color-20-transparent: rgba(255,255,255,0.8);
+    --anti-bg-color-15-transparent: rgba(255,255,255,0.85);
+    --anti-bg-color-10-transparent: rgba(255,255,255,0.9);
+    --anti-bg-color-5-transparent: rgba(255,255,255,0.95);
+    
+    --dark-transparent-color:rgba(60,60,60,0.6);
+    --dark-transparent-hover-color:rgb(25,25,25,0.7);
+    
+    --light-transparent-color:rgba(200, 200, 200, 0.2);
+    --light-transparent-hover-color:rgba(255,255,255,0.3);
+    
+    --gray-transparent-color:rgba(75,75,75,0.3);
+    --gray-transparent-hover-color:rgba(75,75,75,0.4);
+    
+    --black-transparent-color:rgba(0,0,0,0.5);
+    --black-transparent-hover-color: rgba(0,0,0,0.6);
+    
+    --green-transparent-color: rgba(39, 58, 23, 0.6);
+    --green-transparent-hover-color:  rgba(27, 58, 0, 0.8);
+    
+    --red-transparent-color: rgba(200,0,0,0.4);
+    --red-transparent-hover-color: rgba(180,0,0,0.6);
+}
+
+div.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 3px solid transparent;
+    border-top-color: #ee4035;
+    border-radius: 50%;
+    
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    
+    
+    z-index: 2147483647;
+}
+div.loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid transparent;
+    border-top-color: rgb(253, 244, 152);
+    border-radius: 50%;
+    
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;	
+}
+div.loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border: 3px solid transparent;
+    border-top-color: #0392cf;
+    border-radius: 50%;
+    
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+
+
+
+body{
+    background: white; color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+
+    font-family: system-ui;
+    
+    background: var(--bg-color);
+    color: var(--font-color);
+}
+
+input {
+    height:30px;
+    line-height:30px;	
+    padding:10px;	
+    font-weight:normal;	
+    border: 1px solid;
+    color:var(--font-color);
+    border-color: var(--border-color);
+    border-radius:1px;
+    background-color: var(--light-transparent-color);
+    box-shadow: 0px 1px 1px var(--border-color) inset, 0px 1px 0px var(--light-transparent-color);
+}
+input:focus{
+    background-color:var(--light-transparent-hover-color) !important;
+    
+    outline: none;
+    box-shadow: 0px 0px 0px 1px var(--border-color) inset;
+    
+}
+textarea{
+    color:var(--font-color);
+    background-color: var(--light-transparent-color);
+}
+textarea:focus{
+    background-color:var(--light-transparent-hover-color);
+}
+
+select{
+    height:30px;
+    line-height:30px;	
+    padding:0px;	
+    font-weight:normal;	
+    color: var(--font-color);
+    background-color: var(--light-transparent-color);
+    border: 1px solid var(--border-color);
+    border-radius:1px;
+    box-shadow: 0px 1px 1px var(--border-color) inset, 0px 1px 0px var(--light-transparent-color);
+    
+}
+
+select:focus
+{
+    background-color: var(--light-transparent-hover-color) !important;
+    outline: none;
+    box-shadow: 0px 0px 0px 1px var(--border-color) inset;
+}
+select option{
+    background-color: var(--bg-color-15-transparent);
+    border-color: var(--border-color);
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr{
+    transition: background-color ease 0.2s;
+    color: var(--faded-font-color);
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+table tr.header{
+    transition: background-color ease 0.2s;
+    color: var(--font-color);
+    font-size: 90%;
+    font-weight: bold;
+    
+}
+
+a{
+    color: #0033cc;
+}
+
+table tr:hover{
+    background-color: var(--anti-bg-color-85-transparent);
+    text-overflow: "";
+    overflow: "";
+}
+table tr td{
+    transition: background-color ease 0.2s;    
+    margin: 0;
+}
+table tr td:hover{
+    background-color: var(--anti-bg-color-95-transparent);
+}
+
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+
+.button {
+    cursor: pointer;
+    background-color: var(--light-transparent-color);
+    padding: 10px;
+    user-select: none;
+}
+.button:hover {    
+    background-color: var(--light-transparent-hover-color);
+}
